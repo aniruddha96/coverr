@@ -6,11 +6,11 @@ import ColorTools
 class PosterGenerator:
     def __init__(self):
         try:
-            self.title_font = ImageFont.truetype(".\\JetBrainsMono\\JetBrainsMono-Bold.ttf",size=70)
-            self.artist_font = ImageFont.truetype(".\\JetBrainsMono\\JetBrainsMono-Regular.ttf",size=60)
-            self.info_font = ImageFont.truetype(".\\JetBrainsMono\\JetBrainsMono-Regular.ttf",size=40)
-            self.song_font = ImageFont.truetype(".\\JetBrainsMono\\JetBrainsMono-Regular.ttf",size=45)
-            self.small_font = ImageFont.truetype(".\\JetBrainsMono\\JetBrainsMono-Regular.ttf",size=25)
+            self.title_font = ImageFont.truetype("./JetBrainsMono/JetBrainsMono-Bold.ttf",size=70)
+            self.artist_font = ImageFont.truetype("./JetBrainsMono/JetBrainsMono-Regular.ttf",size=60)
+            self.info_font = ImageFont.truetype("./JetBrainsMono/JetBrainsMono-Regular.ttf",size=40)
+            self.song_font = ImageFont.truetype("./JetBrainsMono/JetBrainsMono-Regular.ttf",size=45)
+            self.small_font = ImageFont.truetype("./JetBrainsMono/JetBrainsMono-Regular.ttf",size=25)
         except:
             self.title_font = ImageFont.load_default()
             self.artist_font = ImageFont.load_default()
